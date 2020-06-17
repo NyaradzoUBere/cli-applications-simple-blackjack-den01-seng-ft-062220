@@ -72,6 +72,7 @@ def runner
   # code runner here
   welcome
   player_total = initual_round
-  total = 
+  total = player_total
+  
 end
     
