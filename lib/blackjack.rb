@@ -48,9 +48,9 @@ def hit?(total)
     puts "We won't deal a new card"
   elsif user_input == 'h'
     puts "We will deal a new card"
-    deal_card
+    new_card = deal_card
     payer_total = 0
-    player_total += deal_card
+    player_total += new_card
   else
     puts "please enter a valid command"
     prompt_user
