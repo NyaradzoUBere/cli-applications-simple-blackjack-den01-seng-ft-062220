@@ -40,7 +40,7 @@ def initial_round
   
 end
 
-def hit?(total)
+def hit?(player_total)
   # code hit? here
   prompt_user
   user_input = get_user_input
