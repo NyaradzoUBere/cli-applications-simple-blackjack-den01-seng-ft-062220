@@ -47,6 +47,7 @@ def hit?(total)
   if user_input == 's'
     puts "Type 'h' to hit or 's' to stay"
     total
+    player_total
   elsif user_input == 'h'
     puts "We will deal a new card"
     new_card = deal_card
