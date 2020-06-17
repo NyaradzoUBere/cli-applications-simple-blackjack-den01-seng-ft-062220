@@ -50,7 +50,6 @@ def hit?(total)
   elsif user_input == 'h'
     puts "We will deal a new card"
     new_card = deal_card
-    payer_total = 0
     player_total += new_card
   else
     puts "please enter a valid command"
