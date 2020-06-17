@@ -9,7 +9,7 @@ def deal_card
   return dealt_card
 end
 
-def display_card_total(number)
+def display_card_total(total)
   # code #display_card_total here
   card_total
   puts "Your cards add up to #{card_total}"
