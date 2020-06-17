@@ -9,12 +9,10 @@ def deal_card
   puts dealt_card
 end
 
-def display_card_total
+def display_card_total(number)
   # code #display_card_total here
-  deal_card
-  cards_in_hand = []
-  cards_in_hand.push(deal_card.to_i)
-  card_total += deal_card
+  card_total
+  puts "Your cards add up to #{card_total}"
   
 end
 
