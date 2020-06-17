@@ -70,7 +70,6 @@ end
 
 def runner
   welcome
-  initial_round
   player_total = initial_round
   total = player_total
 
