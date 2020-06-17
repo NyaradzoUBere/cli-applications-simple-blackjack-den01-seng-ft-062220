@@ -46,7 +46,6 @@ def hit?(player_total)
   user_input = get_user_input
   if user_input == 's'
     puts "Type 'h' to hit or 's' to stay"
-    total
     player_total
   elsif user_input == 'h'
     puts "We will deal a new card"
@@ -56,7 +55,7 @@ def hit?(player_total)
     puts "please enter a valid command"
     prompt_user
   end
-  total
+  player_total
 end
 
 def invalid_command
