@@ -8,10 +8,10 @@ def deal_card
   puts dealt_card
 end
 
-deal_card
 
 def display_card_total
   # code #display_card_total here
+  deal_card
   card_total = 0
   p "Dealt card is #{deal_card}"
   cards_in_hand = []
