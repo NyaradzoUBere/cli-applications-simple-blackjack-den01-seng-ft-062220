@@ -46,6 +46,7 @@ def hit?(total)
   user_input = get_user_input
   if user_input == 's'
     puts "We won't deal a new card"
+    total
   elsif user_input == 'h'
     puts "We will deal a new card"
     new_card = deal_card
