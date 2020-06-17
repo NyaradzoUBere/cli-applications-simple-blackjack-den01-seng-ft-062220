@@ -50,7 +50,8 @@ def hit?(player_total)
     puts "We will deal a new card"
     new_card = deal_card
     player_total += new_card
-  else
+  end
+  if user_input != 'h' && user_input != 's'
     invalid_command
     puts "Please enter a valid command"
     prompt_user
