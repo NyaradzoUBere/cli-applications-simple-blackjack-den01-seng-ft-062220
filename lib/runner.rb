@@ -13,7 +13,7 @@ deal_card
 def display_card_total
   # code #display_card_total here
   card_total = 0
-  p "Dealt card is #{dealt_card}"
+  p "Dealt card is #{deal_card}"
   cards_in_hand = []
   cards_in_hand.push(deal_card)
   puts "card total is #{card_total += deal_card.to_i}"
