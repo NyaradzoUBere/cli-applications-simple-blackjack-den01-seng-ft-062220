@@ -35,8 +35,7 @@ def initial_round
   card_two = deal_card
   sum = card_one + card_two
   puts "Your cards add up to #{sum}"
-  return sum
-  
+  sum
 end
 
 def hit?(player_total)
