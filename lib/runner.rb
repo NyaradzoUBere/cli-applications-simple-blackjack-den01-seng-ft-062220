@@ -8,7 +8,7 @@ def deal_card
   puts dealt_card
 end
 
-dealt_card
+deal_card
 
 def display_card_total
   # code #display_card_total here
