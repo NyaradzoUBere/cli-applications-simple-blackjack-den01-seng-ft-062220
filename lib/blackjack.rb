@@ -78,7 +78,7 @@ def runner
 #     display_card_total(total)
 #   end
 # end_game(total)
-welcome
+  welcome
   player_total = initial_round
   total = player_total
 
