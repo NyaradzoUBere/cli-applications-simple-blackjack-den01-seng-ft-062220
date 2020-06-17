@@ -10,6 +10,7 @@ end
 
 def display_card_total
   # code #display_card_total here
+  card_total = 0
   deal_card
   cards_in_hand = []
   cards_in_hand.push(deal_card)
