@@ -55,6 +55,8 @@ def hit?(total)
   else
     puts "please enter a valid command"
     prompt_user
+  end
+  
 end
 
 def invalid_command
