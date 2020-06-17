@@ -8,6 +8,8 @@ def deal_card
   puts dealt_card
 end
 
+dealt_card
+
 def display_card_total
   # code #display_card_total here
   card_total = 0
