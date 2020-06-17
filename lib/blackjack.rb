@@ -50,7 +50,6 @@ def hit?(player_total)
   if user_input == 's'
     player_total
   elsif user_input == 'h'
-    puts "We will deal a new card"
     new_card = deal_card
     player_total += new_card
   end
