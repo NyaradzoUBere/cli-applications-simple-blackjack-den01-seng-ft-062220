@@ -10,15 +10,12 @@ end
 
 def display_card_total
   # code #display_card_total here
-  puts "deal card methond used #{deal_card}"
+  deal_card
   cards_in_hand = []
-  p cards_in_hand.push(deal_card)
-  card_total = 0
-  puts "card total is #{card_total += deal_card.to_i}"
+  cards_in_hand.push(deal_card.to_i)
+  card_total += deal_card
   
 end
-
-display_card_total
 
 
 
