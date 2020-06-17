@@ -73,6 +73,7 @@ def runner
   welcome
   player_total = initual_round
   total = player_total
-  until card
+  until total >= 21
+  
 end
     
