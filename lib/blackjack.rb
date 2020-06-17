@@ -43,10 +43,10 @@ end
 def hit?(total)
   # code hit? here
   prompt_user
-  get_user_input
-  if input == 's'
+  user_input = get_user_input
+  if user_input == 's'
     puts "We won't deal a new card"
-  elsif input == 'h'
+  elsif user_input == 'h'
     puts "We will deal a new card"
     deal_card
     payer_total = 0
