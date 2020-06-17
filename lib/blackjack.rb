@@ -48,8 +48,12 @@ def hit?(total)
     puts "We won't deal a new card"
   elsif input == 'h'
     puts "We will deal a new card"
+    deal_card
+    payer_total = 0
+    player_total += deal_card
   else
-    puts "please enter valid input"
+    puts "please enter a valid command"
+    prompt_user
 end
 
 def invalid_command
