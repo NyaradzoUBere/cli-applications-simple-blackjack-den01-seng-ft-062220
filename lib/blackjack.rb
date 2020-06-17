@@ -74,7 +74,7 @@ def runner
   total = player_total
 
   until total >= 21
-    puts "Your cards add up to #{total}"
+    
     total = hit?(total)
     display_card_total(total)
     
