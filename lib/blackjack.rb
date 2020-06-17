@@ -48,7 +48,6 @@ def hit?(player_total)
     invalid_command
     prompt_user
     user_input = get_user_input
-    puts "Please enter a valid command"
   end
   if user_input == 's'
     player_total
