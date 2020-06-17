@@ -51,7 +51,7 @@ def hit?(player_total)
     new_card = deal_card
     player_total += new_card
   else
-    puts "please enter a valid command"
+    puts "Please enter a valid command"
     prompt_user
   end
   player_total
