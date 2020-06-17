@@ -74,6 +74,6 @@ def runner
   player_total = initual_round
   total = player_total
   until total >= 21
-  
+    total = hit?(total)
 end
     
